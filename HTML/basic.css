@@ -1,10 +1,20 @@
-h1{
-    background-color: rgb(254, 0, 0);
+.header{
+background-color: darkcyan;
+height: 80px;
+}
+.ninja{
+  background-color: rgb(23, 215, 215);
+  margin-right: 1px;
+  margin-left: 500px;
+  height: 600px;
+  border-color: black;
+  border-radius: 10px;
+  align-items:last baseline;
+  display: flex;
+  flex-direction: row;
 }
 
-div{
-    background-color: blueviolet;
-    height: 500px;
-    width: 500px;
-    display: block;
+.footer{
+  background-color: brown;
+  height: 150px;
 }
