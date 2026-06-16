@@ -1,6 +1,9 @@
 .header{
 background-color: darkcyan;
 height: 80px;
+opacity: 30%;
+filter: blur(0.80px);
+
 }
 .ninja{
   background-color: rgb(23, 215, 215);
@@ -9,9 +12,8 @@ height: 80px;
   height: 600px;
   border-color: black;
   border-radius: 10px;
-  align-items:last baseline;
   display: flex;
-  flex-direction: row;
+  text-align: center;
 }
 
 .footer{
