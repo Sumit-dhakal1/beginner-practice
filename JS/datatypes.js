@@ -1,5 +1,4 @@
 let name = "sumit dhakal";
-let age = 40
 let isstudent = true;
 
 //so above are the  data types in javascript 
@@ -18,4 +17,26 @@ It is a primitive data type that was introduced in ECMAScript 2015 (ES6)
 and is often used to create private properties or to avoid naming conflicts in objects.
 */
 
+const student ={
+    name: "rahul tamang",
+    age: 22,  
+    class: "lalupate",
+    roll_no: 11,
+    GPA: 3.45,
+    isPassed: true,
+};
 
+console.log(student.name);
+
+
+const user = {
+    userName : "sumit dhakal",
+    post : 30,
+    followers : 300,
+    following : 100,
+    isFollow : true,
+    bio : "this is my offical account",
+    
+};
+
+console.log(user.followers);

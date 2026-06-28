@@ -21,7 +21,7 @@ let isLoggedIn = ""
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-//console.log(booleanIsLoggedIn);
+console.log(booleanIsLoggedIn);
 
 // in the conversion of boolean 
 // if the filed is have value it conversion into true 
