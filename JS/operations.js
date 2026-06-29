@@ -60,12 +60,27 @@ let value = (a+b)
 
 console.log(value);
 
-const phone_items = ['redmi', 'xoimi', 'realme', 'iphone']
+// arthematic operators 
 
-phone_items.splice(1,1, 'oneplus');
+let a = 5
+let b = 2
 
-for (i=0; i<phone_items.length; i++) {
-}
+console.log("a+b =",a+b);
+console.log("a-b =", a-b);
+console.log("a*b =", a*b);
+console.log("a/b =", a/b);
+
+console.log("a**b =", a**b);
 
 
-console.log(phone_items[i]);
+//unary operator 
+
+let a = 20
+
+a--;
+
+console.log("a =", a);
+
+
+
+
