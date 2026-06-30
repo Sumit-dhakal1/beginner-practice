@@ -73,7 +73,7 @@ console.log("a/b =", a/b);
 console.log("a**b =", a**b);
 
 
-//unary operator 
+// unary operator 
 
 let a = 20
 
@@ -82,5 +82,48 @@ a--;
 console.log("a =", a);
 
 
+let b= 20
 
+b++;
+
+console.log("b=", b);
+
+
+let a = 12;
+
+console.log("++a", ++a); //in the ++a it says first print the value 
+console.log("a++", a++);// in the a++ it says first we print the previous value 
+console.log(a); // after that print the new value or update value 
+
+
+//asignment operator 
+
+let c = 20;
+
+c-= 4;
+
+console.log("c =", c);
+
+let a = 30;
+// we can operate the value through the assignment operator it means like a+= means> a= a+given value   
+a-= 15
+
+console.log("a =", a)
+
+let b = 2;
+
+b**= 4
+
+console.log("b =", b)
+
+// comprasion operator 
+
+let A = 1000000.3430
+let B = 1042252.52353
+
+A!=B
+
+console.log(A!=B);
+
+console.log(A<=B);
 
