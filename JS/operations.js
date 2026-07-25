@@ -142,10 +142,52 @@
 // console.log(a!==b)
 
 
-let sumit = 20
-let dipak = 30
+// let sumit = 20
+// let dipak = 30
 
-sumit!=dipak
 
-console.log(sumit!=dipak) //true
+
+// console.log(sumit!=dipak) //true
+
+// let shyam = 20
+// let bikram = 30
+
+// console.log("shyam >= bikram", shyam <= bikram);
+
+
+// let user = ['hari', 'binod', 'kiran', 'mukesh', 'dipesh'];
+
+// // console.log(user.slice(2,4));
+
+// user.splice(2,2, 'hero'); 
+// console.log(user)
+
+
+// let brand = ['nike', 'puma', 'jordan', 'gold star', 'jokey']
+
+// console.log(brand.slice(1,4)) 
+// here the slice is working as to extract the value on the basis of the indexing 
+
+
+
+
+// let product = ['money pot', 'calculator', 'phone', 'lamp', 'watch']
+
+// product.splice(0,0, 'water bottle')
+
+// console.log(product)
+//here the splice is doing to remove and replace the items through indexing and outcome with  the new one.
+
+
+let items = ['bag', 'comb', 'table', 't-shirt', 'bag', 'brush']
+
+// console.log(items.slice(2,3));
+
+
+items.splice(2,4, 'bike');
+
+console.log(items)
+
+
+let highest = ['11', '32', '44', '55', '22', '345', '444']
 
