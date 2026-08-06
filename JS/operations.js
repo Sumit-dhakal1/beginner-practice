@@ -179,15 +179,29 @@
 //here the splice is doing to remove and replace the items through indexing and outcome with  the new one.
 
 
-let items = ['bag', 'comb', 'table', 't-shirt', 'bag', 'brush']
+// let items = ['bag', 'comb', 'table', 't-shirt', 'bag', 'brush']
 
-// console.log(items.slice(2,3));
-
-
-items.splice(2,4, 'bike');
-
-console.log(items)
+// // console.log(items.slice(2,3));                                                
 
 
-let highest = ['11', '32', '44', '55', '22', '345', '444']
+// items.splice(2,4, 'bike');           
+
+// console.log(items)
+
+
+// let highest = ['11', '32', '44', '55', '22', '345', '444']
+
+// const max = highest.reduce((a,b) => (a>b ? a:b));
+
+
+// console.log(max)
+
+
+// let fruits = ['mango', 'apple', 'banana', 'strawberry', 'pineapple', 'blueberries']
+
+// console.log(fruits.slice(2,4));
+
+// fruits.splice(2,4, 'hero')
+
+// console.log(fruits)
 

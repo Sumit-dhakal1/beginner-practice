@@ -1,0 +1,25 @@
+{
+  "name": "practice-session",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Sumit-dhakal1/beginner-practice#readme",
+  "bugs": {
+    "url": "https://github.com/Sumit-dhakal1/beginner-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumit-dhakal1/beginner-practice.git"
+  },
+  "license": "ISC",
+  "author": "sumit dhakal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react-redux": "^9.3.0",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
+  }
+}
