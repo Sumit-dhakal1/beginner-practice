@@ -205,3 +205,39 @@
 
 // console.log(fruits)
 
+
+// logical operator
+// console.log(true && true); // true
+// console.log(true && false); // false
+// console.log(false && true); // false
+// console.log(false && false); // false
+
+// console.log(true || true); // true
+// console.log(true || false); // true
+// console.log(false || true); // true
+// console.log(false || false); // false
+
+// console.log(!true); // false
+// console.log(!false); // true
+
+// let a = 20;
+// let b = 30;
+
+// let cond1 = a > b; // false
+// let cond2 = a < b; // true
+
+// console.log(cond1 && cond2); //and operator
+
+// cond01 = a === 20;
+// cond02 = b > 25;
+
+// console.log(cond01 && cond02);
+
+
+let card = 2000;
+let cash = 3000;
+
+console.log(card >! cash);
+
+
+
