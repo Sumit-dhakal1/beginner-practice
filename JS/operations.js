@@ -234,10 +234,73 @@
 // console.log(cond01 && cond02);
 
 
-let card = 2000;
-let cash = 3000;
+// let card = 2000;
+// let cash = 3000;
 
-console.log(card >! cash);
+// console.log(card == cash);
 
 
 
+//conditional statement 
+
+// let age = 17;
+
+// if (age >= 20) {
+//     console.log('you are eligible for driving license');
+// }
+
+// if (age < 20) {
+//     console.log('you are not elegible for driving license');
+// }
+
+
+// let mode = 'light';
+// let color = 'red'
+
+// if (mode === 'dark') {
+//     color = 'red' 
+// }
+
+// else if (mode === 'light') {
+//     color = 'white'
+// }
+
+// console.log(color);
+
+// odd and even check 
+
+// let number = 985;
+
+// if (number%2 === 0) {
+//     console.log('The number is even');
+
+// }
+// else{
+//     console.log('The number is odd');
+
+// }
+
+// let marks = 11
+
+// if (marks >=20) {
+//     console.log('The student is passed')
+// }
+
+// else{
+//     console.log('The student is failed')
+// }
+
+
+// let grade = 61;
+
+// if (grade < 40) {
+//     console.log('The student is failed');
+// }
+
+// else if (grade >=40 && grade <60) {
+//     console.log('the student is obtain C grade')
+// }
+
+// else if(grade >=60 && grade<80) {
+//     console.log('the student is obtain B grade')
+// }
