@@ -304,3 +304,45 @@
 // else if(grade >=60 && grade<80) {
 //     console.log('the student is obtain B grade')
 // }
+
+
+// trenary operator (condition ? value1 : value2)
+
+// it is the alternative of the if else condition easy and compact way to check the condition .
+
+// let toggle = false;
+
+// let message  = toggle ? 'the condition is true' : 'the condition is false';
+
+// console.log(message);
+
+// let marks = 24;
+
+// let result = marks >= 40 ? 'the student is passed' : 'the student is failed';
+
+// console.log(result);
+
+
+// let point = 21;
+
+// if (point >= 30) {
+//     console.log('the student is passed');
+
+// }
+
+// else{
+//     console.log('the student is failed');
+// }
+
+
+// this is my code base of practice 
+// this insta live is my first time so here i just trying to explore at midnight how it is works 
+
+
+function number(){
+
+    return [20,30,40,50,60]
+};
+
+module.exports = number;
+
