@@ -22,12 +22,46 @@ const fs = require('fs');
 
 // fs.writeFileSync('./memo.txt', 'adding the new data into the system')
 
-fs.writeFile('./memo.txt', 'iam the new users.', (err, memo) =>{
-    if(err){
-        console.log('unable to write')
-    }
+// fs.writeFile('./memo.txt', 'iam the new users.', (err, memo) =>{
+//     if(err){
+//         console.log('unable to write')
+//     }
 
-    else{
-        console.log('sucessfully added the data into the system')
-    }
-})
+//     else{
+//         console.log('sucessfully added the data into the system')
+//     }
+// })
+
+// blocking operation 
+
+// console.log('first executed')
+
+// const second = fs.readFileSync('./memo.txt', 'utf-8');
+
+// console.log(second);
+
+// console.log('third');
+
+//non-blocking operations
+
+// console.log("iam first");
+
+// fs.readFile('./memo.txt', 'utf-8', (err, memo) =>{
+//     if(err) {
+//         console.log("not found");
+
+//     }
+
+//     else{
+//         console.log(memo)
+//     }
+// });
+
+
+// console.log('iam the last one');
+// console.log('iam the second-last one');
+// console.log('iam the third-last one');
+// console.log('iam the fourth-last one');
+
+
+
