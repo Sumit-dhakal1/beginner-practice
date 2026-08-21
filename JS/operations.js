@@ -346,8 +346,15 @@
 
 // module.exports = number;
 
-function books(){
-    return 'this is the limited edition book which is not avilable in the market'
-};
+// function books(){
+//     return 'this is the limited edition book which is not avilable in the market'
+// };
 
-module.exports = books;
+// module.exports = books;
+
+function country() {
+    return ['india', 'nepal', 'bhutan', 'pakistan', ]
+
+}
+
+module.exports = country;
