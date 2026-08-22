@@ -63,5 +63,8 @@ const fs = require('fs');
 // console.log('iam the third-last one');
 // console.log('iam the fourth-last one');
 
+const mode = fs.readFileSync('./memo.txt', 'utf-8')
+
+console.log(mode);
 
 
