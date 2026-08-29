@@ -15,3 +15,9 @@
 1787939960602 /favicon.ico: new user log 
 1787939969256 /: new user log 
 1787939969288 /favicon.ico: new user log 
+1787941025720 /: new user log 
+1787941025821 /favicon.ico: new user log 
+1787941040922 /.well-known/appspecific/com.chrome.devtools.json: new user log 
+1787941047683 /: new user log 
+1787941047736 /favicon.ico: new user log 
+1787941047766 /.well-known/appspecific/com.chrome.devtools.json: new user log 
