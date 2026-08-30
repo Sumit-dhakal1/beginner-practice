@@ -62,6 +62,9 @@ app.get("/product", (req, res) =>{
     return res.end ("product is out of stock")
 });
 
+app.get("/items", (req, res) =>{
+    return res.end("iam gay man")
+})
 
 
 

@@ -1,0 +1,13 @@
+// version working 
+
+^ = this carate symbols with compatable version is continously update the minor versioning without asking if we remove this it automatically lock the current versioning for the particular forlder for long term if we have to update the versioning in the case the express are update their version we have to also update mannual or uninstall and install 
+
+// first part versioning
+5. = this versioning is the major update or breaking update it is not necessary to update but if you are working on the current versioning in the future this first version is update and you working on the previous version it not working latest version  or could be breaking the you codebase due to they are making the changes in the latest version and your previous version codebase is not compatable to the latest version. 
+
+// second part versioning
+2. = this middle versioning is recomanded version for the any specifice module where it have to release the bug fix or security related fix into that versioning. 
+
+
+//3rd part versioning
+1 = this is the minnor fixes of the versioning which is continously update if they are come up with minnor fixes in the system. 
