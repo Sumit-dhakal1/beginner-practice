@@ -1,0 +1,15 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "sumit dhakal",
+  "type": "commonjs",
+  "main": "node index.js",
+  "scripts": {
+    "start": "index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
