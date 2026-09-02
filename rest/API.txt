@@ -1,0 +1,2 @@
+tody is testing the API in the postman pannel it make us easier to handel the req and res form the server.
+
