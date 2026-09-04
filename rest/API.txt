@@ -1,2 +1,6 @@
 tody is testing the API in the postman pannel it make us easier to handel the req and res form the server.
 
+completed the get and post testing of the mock data 
+
+adding the delete script into simple curd method 
+

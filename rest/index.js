@@ -39,9 +39,16 @@ app.post("/new/users", (req, res) => {
     const body = req.body;
     User.push({...body, id : User.length + 1});
     fs.writeFile("./MOCK_DATA.json", JSON.stringify(User), (err, data)  => {
-        return res.json({status: "pending"});
+        return res.json({status: "sucess", id: User.length });
 
     });
+
+    app.delete("/users/:id", (req, res) => {
+        const id = Number(req.params.id);
+        const users = Users.remove((user) => user.id === id);
+        return res.json({status: "sucessfull deleted",users})
+    });    
+    
 });
 
 
