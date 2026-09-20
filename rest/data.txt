@@ -1,0 +1,8 @@
+schema - defining the structue 
+
+schema - model
+
+using the model doing the CURD operation 
+
+schema - structure - model - CURD operation
+
