@@ -1,5 +1,4 @@
 const express = require("express");
-const User = require("./MOCK_DATA.json");
 const fs = require('fs');
 const { type } = require("os");
 const { default: mongoose } = require("mongoose");
@@ -53,11 +52,13 @@ app.use((req, res, next) => {
 });
 
 //route
-app.get("/users", (req, res) => {
+app.get("/users", async (req, res) => {
+    
+    const alldbUsers = await Users.find({})
     const userName = `
     
     <ul>
-    ${User.map((user) => `<li>${user.first_name} ${user.ip_address} </li>`).join("")}
+    ${alldbUsers.map((user) => `<li>${user.first_name} ${user.email } </li>`).join("")}
 }
     </ul>
 
@@ -68,15 +69,14 @@ app.get("/users", (req, res) => {
 // REST API 
 
 app.get("/users/api", (req, res) => {
-    res.setHeader("x-name", "its me sumit dhakal")
-    return res.json(User);
+    return res.json({});
 });
 
 app
     .route("/users/:id")
-    .get((req, res) => {
-        const id = Number(req.params.id);
-        const user = User.find((user) => user.id === id);
+    .get(async(req, res) => {
+        const user = await Users.findById(req.params.id);
+        if (!user) return res.status(404).json ({error: "users not found"});
         return res.json(user);
     })
     .patch(async (req, res) => {
