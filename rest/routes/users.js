@@ -57,5 +57,5 @@ return res.status(201).json ({msg: "sucessfully created"})
   
 });
 
-module.exports = users; 
+module.exports = Users; 
 
