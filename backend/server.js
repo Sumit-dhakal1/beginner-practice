@@ -46,26 +46,43 @@
 // PersonalServer.listen(8000, () => console.log('server start'));
 
 
-const express = require("express");
+// const express = require("express");
 
+// const app = express();
+
+// app.get("/", (req , res ) => {
+//     return res.end ("hello it is smith spector")
+// });
+
+// app.get("/login", (req , res) => {
+//     return res.end ("wellcome login page")
+// });
+
+// app.get("/product", (req, res) =>{
+//     return res.end ("product is out of stock")
+// });
+
+// app.get("/items", (req, res) =>{
+//     return res.end("iam gay man")
+// })
+
+
+
+// app.listen(8000, () => console.log("server is running!"));
+
+
+const express = require('express');
+const mongoDB = require('./config/connection');
+const connectDb = require("../backend/config/connection")
+
+
+
+const PORT = 3000;
 const app = express();
 
-app.get("/", (req , res ) => {
-    return res.end ("hello it is smith spector")
-});
 
-app.get("/login", (req , res) => {
-    return res.end ("wellcome login page")
-});
+app.use(express.json());
 
-app.get("/product", (req, res) =>{
-    return res.end ("product is out of stock")
-});
-
-app.get("/items", (req, res) =>{
-    return res.end("iam gay man")
+app.listen ( PORT, () =>{
+    console.log('server is running ')
 })
-
-
-
-app.listen(8000, () => console.log("server is running!"));
