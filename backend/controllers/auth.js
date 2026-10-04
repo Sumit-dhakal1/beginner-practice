@@ -21,6 +21,40 @@ export const createUser = async (req, res, next) => {
 
 		}
 
+		const hashedpassword = await bcrypt.hash(password, 10);
 
+		const user = await user.create({
+			email,
+			password: hashedpassword, 
+		});
+
+		return res.status(201).json({
+			status: true,
+			message: 'user create sucessfully ',
+			user: {
+				id : user._id,
+				email: user.email,
+
+			},						
+		});
+
+
+	}catch(error) {
+		next(error);
 	}
 };
+
+export const getUsers = async( req, res, next) =>{
+	try{
+		const users = await user.find().select ("-password");
+
+		return res.status(200).json ({
+			status : true,
+			message : 'user featch sucessfully',
+			users,
+		});
+	} catch (error) {
+		next (error);
+	}
+};
+
